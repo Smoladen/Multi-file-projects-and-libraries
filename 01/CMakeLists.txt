@@ -5,9 +5,9 @@ project(01 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(01 main.cpp
-    math.cpp
-    math_functions.h)
+add_executable(01 src/main.cpp
+    class/math.cpp
+    class/math_functions.h)
 
 include(GNUInstallDirs)
 install(TARGETS 01

@@ -1,5 +1,5 @@
 #include <iostream>
-#include "counter_classes.h"
+#include "../class/counter_classes.h"
 
 int main() {
     int number;

@@ -1,5 +1,5 @@
 #include <iostream>
-#include "math_functions.h"
+#include "../class/math_functions.h"
 
 int main() {
     int double1, double2;
